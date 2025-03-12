@@ -1,6 +1,7 @@
 import '/src/stylesheets/sections/Home.css'
 import SocialLinks from '/src/components/elements/SocialLinks'
 import { profile } from '/src/data.js'
+import Button from '../elements/Button'
 
 const Home = () => {
 	const { name, role, description } = profile
@@ -16,6 +17,7 @@ const Home = () => {
 						{description}
 					</p>
 					<SocialLinks />
+					<Button text={"My CV"}/>
 				</div>
 			</div>
 		</section>
