@@ -17,7 +17,9 @@ const Home = () => {
 						{description}
 					</p>
 					<SocialLinks />
-					<Button text={"My CV"}/>
+					<a href="/mycv.pdf" download="duylam-cv.pdf" className="cv-button">
+						My cv
+					</a>
 				</div>
 			</div>
 		</section>
