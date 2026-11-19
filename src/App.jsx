@@ -97,7 +97,7 @@ const FEATURED_WORKS = [
 		description:
 			'Multi-role academic portal built for Administrators, Lecturers, and Students. Features role-based JWT authentication, automated assignment grading, gradebook calculations, and real-time course chat rooms powered by Socket.IO.',
 		stack: ['ReactJS', 'Vite', 'TypeScript', 'Ant Design', 'Express.js', 'PostgreSQL', 'Socket.IO'],
-		liveUrl: 'https://quanlyhoctapsgu.cloud',
+		liveUrl: 'https://drive.google.com/file/d/1T9x5Bzat81q-qzEpmDgy4yX5TW2ejaW1/view',
 		repoUrl: 'https://github.com/duylam15/kltn',
 	},
 	{
@@ -108,7 +108,7 @@ const FEATURED_WORKS = [
 		description:
 			'Full-featured e-commerce frontend replicating core Shopee workflows: JWT authentication, advanced product filtering/sorting/pagination, image zoom slider, cart management, and user profile tracking. Optimized with lazy loading, code splitting, i18n, Storybook, and Unit Tests.',
 		stack: ['ReactJS', 'TypeScript', 'Tailwind CSS', 'React Query', 'React Hook Form', 'Storybook'],
-		liveUrl: '',
+		liveUrl: 'https://drive.google.com/drive/folders/14i2_pgvSA15LS-qnQ-6hkulsVKzsnLh1',
 		repoUrl: 'https://github.com/duylam15/shopee-clone',
 	},
 	{
@@ -130,7 +130,7 @@ const FEATURED_WORKS = [
 		description:
 			'Multi-page online grocery storefront built from scratch without frameworks. Features responsive layouts across mobile, tablet, and desktop, Dark/Light mode switching, interactive cart, wishlist, and checkout flows.',
 		stack: ['HTML5', 'CSS3', 'SCSS', 'JavaScript (ES6+)', 'Responsive Design'],
-		liveUrl: '',
+		liveUrl: 'https://duylam15.github.io/grocerymart/',
 		repoUrl: 'https://github.com/duylam15/grocerymart',
 	},
 ];
