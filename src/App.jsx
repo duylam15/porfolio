@@ -26,7 +26,7 @@ return stock - 1`,
 			},
 			{
 				heading: 'Benchmark Results (k6 on 1 vCPU, 2GB RAM VPS)',
-				text: 'By combining atomic Redis Lua gating with asynchronous Redis Streams workers for PostgreSQL persistence, the system sustained ~428 RPS at 12.46ms p(95) latency with exactly 500 accepted orders and 500 cleanly rejected requests—zero overselling.',
+				text: 'By combining atomic Redis Lua gating with asynchronous Redis Streams workers for PostgreSQL persistence, the system sustained (~ 70 RPS, 2.03s p(95) latency) with exactly 500 accepted orders and 500 cleanly rejected requests—zero overselling.',
 			},
 		],
 	},
@@ -138,7 +138,7 @@ const FEATURED_WORKS = [
 export default function App() {
 	const [pathname, setPathname] = useState(window.location.pathname);
 	const [copied, setCopied] = useState(false);
-	const email = 'your.email@gmail.com'; // Thay bằng email thật của bạn
+	const email = 'nguyenducduylam.dev@gmail.com'; // Thay bằng email thật của bạn
 
 	useEffect(() => {
 		const handlePopState = () => setPathname(window.location.pathname);
@@ -226,8 +226,7 @@ export default function App() {
 						Web Developer
 					</h1>
 					<p>
-						Software Engineering graduate from Sai Gon University (GPA 3.27/4.0). I focus on building clean, responsive
-						web interfaces and scalable backend systems.
+						Software Engineering graduate from Sai Gon University (GPA 3.27/4.0) with hands-on Fullstack internship experience. I focus on building clean, responsive web interfaces and scalable backend systems.
 					</p>
 					<a
 						href="https://www.linkedin.com/in/l%C3%A2m-nguy%E1%BB%85n-%C4%91%E1%BB%A9c-duy-b2b703362/"
@@ -371,8 +370,7 @@ export default function App() {
 
 					{/* LinkedIn */}
 					<a
-						href="https://www.linkedin.com/in/nguy%E1%BB%85n-l%C3%A2m-b2b703362/"
-						target="_blank"
+						href="https://www.linkedin.com/in/l%C3%A2m-nguy%E1%BB%85n-%C4%91%E1%BB%A9c-duy-b2b703362/" target="_blank"
 						rel="noreferrer"
 						aria-label="LinkedIn"
 					>
